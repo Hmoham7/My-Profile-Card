@@ -5,3 +5,13 @@ body {
     padding: 0;
     background-color: lightblue;
 }
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+.role {
+    font-size: 24px;
+    text-align: center;
+}
