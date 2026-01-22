@@ -1,9 +1,18 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     background-color: lightblue;
+}
+
+.card {
+    background-color: white;
+    border: 2px solid rgb(41, 4, 141);
+    border-radius: 8px;
+    padding: 40px;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -13,7 +22,7 @@ h1 {
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 36px;
     text-align: center;
     color: rgb(91, 67, 91);
 }
@@ -21,4 +30,11 @@ h2 {
 .role {
     font-size: 24px;
     text-align: center;
+    margin: 10px 0;
+}
+
+.bio {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
 }
