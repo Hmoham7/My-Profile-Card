@@ -72,7 +72,20 @@ h2 {
     /* Purple color (rgb: 91, 67, 91) distinguishes this from the main heading while staying professional */
     color: rgb(91, 67, 91);
 }
+/* ========================================
+   H3 STYLES - Third-level heading (favorite websites)
+   ======================================== */
 
+h3 {
+    /* 24px font size is smaller than h1 but still prominent, creating a visual hierarchy */
+    font-size: 36px;
+    
+    /* Centers the text horizontally */
+    text-align: center;
+    
+    /* Purple color rgb(0,0,0) distinguishes this from the main heading while staying professional */
+    color: rgb(0, 0, 0);
+}
 /* ========================================
    .ROLE STYLES - Job title/role paragraph
    ======================================== */
