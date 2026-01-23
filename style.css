@@ -77,8 +77,8 @@ h2 {
    ======================================== */
 
 h3 {
-    /* 24px font size is smaller than h1 but still prominent, creating a visual hierarchy */
-    font-size: 24px;
+    /* 18px font size is smaller than h1 but still prominent, creating a visual hierarchy */
+    font-size: 18px;
     
     /* Centers the text horizontally */
     text-align: center;
@@ -166,4 +166,13 @@ ul {
 li {
     /* Add vertical spacing between list items */
     margin: 10px 0;
+}
+
+/* ========================================
+   A STYLES - Links in the list
+   ======================================== */
+
+a {
+    /* Smaller font size for links */
+    font-size: 14px;
 }
