@@ -115,3 +115,55 @@ h3 {
     /* 20px top margin creates space between the role and bio text, improving readability */
     margin-top: 20px;
 }
+
+/* ========================================
+   .PROFILE-IMAGE STYLES - Profile picture
+   ======================================== */
+
+.profile-image {
+    /* Set maximum width to fit inside card */
+    max-width: 100%;
+    
+    /* Set height to auto to maintain aspect ratio */
+    height: auto;
+    
+    /* Limit the image size to be smaller */
+    width: 150px;
+    
+    /* Match width and height to create a circle */
+    height: 150px;
+    
+    /* Make the image circular */
+    border-radius: 50%;
+    
+    /* Center the image in its container */
+    display: block;
+    margin: 0 auto 20px;
+    
+    /* Add object-fit to properly fill the circular container */
+    object-fit: cover;
+}
+
+/* ========================================
+   UL STYLES - Remove bullet points from lists
+   ======================================== */
+
+ul {
+    /* Remove default bullet points */
+    list-style: none;
+    
+    /* Remove default padding */
+    padding: 0;
+    
+    /* Center align the list */
+    text-align: center;
+}
+
+/* ========================================
+   LI STYLES - List item spacing
+   ======================================== */
+
+li {
+    /* Add vertical spacing between list items */
+    margin: 10px 0;
+}
