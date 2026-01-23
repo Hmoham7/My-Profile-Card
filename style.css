@@ -78,7 +78,7 @@ h2 {
 
 h3 {
     /* 24px font size is smaller than h1 but still prominent, creating a visual hierarchy */
-    font-size: 36px;
+    font-size: 24px;
     
     /* Centers the text horizontally */
     text-align: center;
