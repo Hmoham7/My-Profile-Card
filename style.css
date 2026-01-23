@@ -37,7 +37,7 @@ body {
     padding: 40px;
     
     /* Limits card width to 500px to prevent it from becoming too wide on large screens */
-    max-width: 500px;
+    max-width: 600px;
 }
 
 /* ========================================
