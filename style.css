@@ -1,40 +1,104 @@
+/* ========================================
+   BODY STYLES - Page-wide settings
+   ======================================== */
+
 body {
+    /* Uses a modern sans-serif font stack. 'Segoe UI' is preferred, falling back to other sans-serif fonts if unavailable */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    /* Sets the vertical spacing between lines to 1.6 times the font size for better readability */
     line-height: 1.6;
+    
+    /* Removes default browser margins around the page */
     margin: 0;
+    
+    /* Adds 20px of space inside the page, creating breathing room around content */
     padding: 20px;
+    
+    /* Sets the background color of the entire page to light blue */
     background-color: lightblue;
 }
 
+/* ========================================
+   CARD CONTAINER - The white card that holds profile content
+   ======================================== */
+
 .card {
+    /* White background makes the card stand out against the light blue page background */
     background-color: white;
+    
+    /* 2px solid border in dark blue (rgb value: 41, 4, 141) creates a defined edge around the card */
     border: 2px solid rgb(41, 4, 141);
+    
+    /* Rounded corners (8px) give the card a modern, softer appearance */
     border-radius: 8px;
+    
+    /* 40px of internal space keeps content from touching the edges of the card */
     padding: 40px;
+    
+    /* Limits card width to 500px to prevent it from becoming too wide on large screens */
     max-width: 500px;
+    
+    /* margin: 0 auto centers the card horizontally on the page (0 top/bottom margin, auto left/right) */
     margin: 0 auto;
 }
 
+/* ========================================
+   H1 STYLES - Main heading (name)
+   ======================================== */
+
 h1 {
+    /* Large 48px font size makes the name prominent and eye-catching */
     font-size: 48px;
+    
+    /* Centers the text horizontally within its container */
     text-align: center;
+    
+    /* Dark blue color (rgb: 41, 4, 141) matches the card border for visual consistency */
     color: rgb(41, 4, 141);
 }
 
+/* ========================================
+   H2 STYLES - Secondary heading (subtitle/role)
+   ======================================== */
+
 h2 {
+    /* 36px font size is smaller than h1 but still prominent, creating a visual hierarchy */
     font-size: 36px;
+    
+    /* Centers the text horizontally */
     text-align: center;
+    
+    /* Purple color (rgb: 91, 67, 91) distinguishes this from the main heading while staying professional */
     color: rgb(91, 67, 91);
 }
 
+/* ========================================
+   .ROLE STYLES - Job title/role paragraph
+   ======================================== */
+
 .role {
+    /* 24px font size is smaller than headings but larger than regular text to emphasize the role */
     font-size: 24px;
+    
+    /* Centers the text */
     text-align: center;
+    
+    /* margin: 10px 0 adds 10px of vertical space above and below the role text, separating it from other elements */
     margin: 10px 0;
 }
 
+/* ========================================
+   .BIO STYLES - Biography/description paragraph
+   ======================================== */
+
 .bio {
+    /* Centers the text horizontally */
     text-align: center;
+    
+    /* 16px font size is standard for body text, readable and not too large */
     font-size: 16px;
+    
+    /* 20px top margin creates space between the role and bio text, improving readability */
     margin-top: 20px;
 }
