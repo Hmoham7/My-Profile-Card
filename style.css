@@ -38,9 +38,6 @@ body {
     
     /* Limits card width to 500px to prevent it from becoming too wide on large screens */
     max-width: 500px;
-    
-    /* margin: 0 auto centers the card horizontally on the page (0 top/bottom margin, auto left/right) */
-    margin: 0 auto;
 }
 
 /* ========================================
