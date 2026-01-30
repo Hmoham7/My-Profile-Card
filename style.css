@@ -17,6 +17,12 @@ body {
     
     /* Sets the background color of the entire page to light blue */
     background-color: lightblue;
+
+    /* Center the card vertically and horizontally */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* ========================================
@@ -33,11 +39,13 @@ body {
     /* Rounded corners (8px) give the card a modern, softer appearance */
     border-radius: 8px;
     
-    /* 40px of internal space keeps content from touching the edges of the card */
-    padding: 40px;
+    /* 30px of internal space keeps content from touching the edges of the card */
+    padding: 30px;
     
-    /* Limits card width to 500px to prevent it from becoming too wide on large screens */
-    max-width: 600px;
+    /* Make card responsive but shorter than before */
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
 }
 
 /* ========================================
